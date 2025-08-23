@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Link Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .container {
+            margin: auto;
+            width: 80%;
+            max-width: 600px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+        }
+        a {
+            display: block;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dobrodošli na Deep Link Test Stranicu</h1>
+        <p>Kliknite na dugme ispod da testirate deep link za IPS.</p>
+        <button onclick="window.location.href='[OVDE_IDE_TVOJ_IPS_DEEPLINK_URL]';">
+            Testiraj IPS Link
+        </button>
+        <p>Imajte na umu da ovaj link radi samo ako imate instaliranu odgovarajuću aplikaciju.</p>
+        <hr>
+        <p>Da vidite <code>assetlinks.json</code> fajl, kliknite na sledeći link:</p>
+        <a href="assetlinks.json" target="_blank">Pogledaj assetlinks.json</a>
+    </div>
+</body>
+</html>
