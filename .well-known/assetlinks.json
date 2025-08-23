@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "eu.newfrontier.iBanking.mobile.AIK.Retail.dev",
+            "sha256_cert_fingerprints": [
+                "AA:F8:F1:6C:48:1F:6F:25:04:52:02:02:B4:A3:AA:BA:19:FC:92:C2:9A:34:29:B0:9C:EF:35:91:CA:66:99:3F"
+            ]
+        }
+    }
+]
